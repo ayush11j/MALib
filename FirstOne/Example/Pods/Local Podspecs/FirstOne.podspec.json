@@ -1,0 +1,22 @@
+{
+  "name": "FirstOne",
+  "version": "0.1.0",
+  "summary": "A short description of FirstOne.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ayush11j/FirstOne",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ayush11j": "amishra@akamai.com"
+  },
+  "source": {
+    "git": "https://github.com/ayush11j/FirstOne.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FirstOne/Classes/**/*"
+}

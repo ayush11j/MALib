@@ -1,0 +1,16 @@
+PODS:
+  - FirstOne (0.1.0)
+
+DEPENDENCIES:
+  - FirstOne (from `../`)
+
+EXTERNAL SOURCES:
+  FirstOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstOne: 8a7030e3d8685e606000d064a14f72362e6a8fa7
+
+PODFILE CHECKSUM: 9a19c676feff1d8cf6631cfee9eee70790e9a20c
+
+COCOAPODS: 1.5.3
