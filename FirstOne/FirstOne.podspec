@@ -25,8 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ayush11j' => 'amishra@akamai.com' }
-  s.source           = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s }
-  #s.source       = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s, :commit => '1a541d8c3f91adf4f529999c28e73b9f7ca016fc' }
+  #s.source           = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s, :commit => '1a541d8c3f91adf4f529999c28e73b9f7ca016fc' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
