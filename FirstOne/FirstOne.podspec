@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FirstOne'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of FirstOne.'
 
 # This description is used to generate tags and improve search results.
@@ -25,13 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ayush11j' => 'amishra@akamai.com' }
-  #s.source           = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s }
-  s.source       = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s, :commit => '1a541d8c3f91adf4f529999c28e73b9f7ca016fc' }
+  s.source           = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s }
+  #s.source       = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s, :commit => '1a541d8c3f91adf4f529999c28e73b9f7ca016fc' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FirstOne/Classes/*.{swift}'
+s.source_files = 'FirstOne/FirstOne/Classes/**/*'
+#s.source_files = '*.{swift}'
   
   # s.resource_bundles = {
   #   'FirstOne' => ['FirstOne/Assets/*.png']
