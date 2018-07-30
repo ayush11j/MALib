@@ -1,0 +1,11 @@
+framework module AdamPodTest {
+  umbrella header "AdamPodTest.h"
+
+  export *
+  module * { export * }
+}
+
+module AdamPodTest.Swift {
+    header "AdamPodTest-Swift.h"
+    requires objc
+}
