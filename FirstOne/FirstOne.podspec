@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   #s.source = { :http => "https://github.com/ayush11j/MALib/blob/master/Framework.zip" }
   s.source           = { :git => 'https://github.com/ayush11j/MALib.git', :tag => s.version.to_s }
-  s.vendored_frameworks = "FirstOne/AdamPodTest.framework"
+  s.vendored_frameworks = "AdamPodTest.framework"
   s.source_files = 'FirstOne/FirstOne/Classes/**/*'
   s.framework = "UIKit"
   s.requires_arc = true
